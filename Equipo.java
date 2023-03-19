@@ -9,6 +9,7 @@ public class Equipo {
     private enum Rareza {FRECUENTE,INFRECUENTE,RARO,MITICO,LEGENDARIO}
     private Rareza nivel_rareza;
     private int nivel;
+    public String accionEspecial;
 
     private String nombre; // El nombre del equipamiento (MISC)
 
@@ -63,6 +64,6 @@ public class Equipo {
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.nombre = nombre;        
     }
 }
